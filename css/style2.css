@@ -1,0 +1,103 @@
+/* fonts for h1 */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.col-1 h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* fonts for para  */
+
+
+/* kalo box er map */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+
+    position: absolute;
+    width: 1150px;
+    height: 600px;
+    left: 100px;
+    right: 100px;
+    top: 30px;
+
+    background: #161616;
+    border-radius: 30px;
+}
+
+/* world cup er part */
+
+.container .col-1 {
+    position: absolute;
+    width: 542px;
+    height: 424px;
+    left: 100px;
+    top: 10px;
+    bottom: 10px;
+    color: #ffffff;
+}
+
+.container .col-1 h1 {
+
+    width: 542px;
+
+    left: calc(50% - 542px/2 - 283px);
+    top: 100px;
+    bottom: 0;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+/* button er part  */
+.button-1 {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.button-1 {
+    transition: width 0.5s;
+}
+
+.button-1 img {
+    width: 30px;
+    display: none;
+}
+
+.button-1:hover img {
+    display: block;
+}
+
+.button-1:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* marselor er part  */
+.container .col-2 {
+    position: absolute;
+    width: 581px;
+
+    left: 662px;
+    right: 78px;
+    top: 110px;
+}
+
+.container .col-2 img {
+    width: 80%;
+}

@@ -1,0 +1,386 @@
+/* for fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+.container {
+    width: 1100px;
+    height: 550px;
+    border-radius: 30px;
+    background-color: #161616;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.col-1 {
+    width: 460px;
+    height: 424px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 46px;
+}
+
+.col-1 h1 {
+    font-weight: 700;
+    font-size: 55px;
+    padding-bottom: 0px;
+
+    margin-bottom: 0px;
+}
+
+.col-1 p {
+    font-size: 13px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+
+}
+
+/* button er part  */
+.button-1 {
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right, #fb5283, #ff3527);
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.button-1 {
+    transition: width 0.5s;
+}
+
+.button-1 img {
+    width: 30px;
+    display: none;
+}
+
+.button-1:hover img {
+    display: block;
+}
+
+.button-1:hover {
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* marselo part  */
+.col-2 {
+    padding-top: 20px;
+}
+
+.col-2 img {
+    height: 530px;
+}
+
+/* menu bar section  */
+main {
+    display: flex;
+    justify-content: center;
+    margin-top: 81px;
+    width: 1200px;
+    height: 1043px;
+
+
+}
+
+.menu {
+
+    justify-content: center;
+    align-items: center;
+    width: 282px;
+    height: 282px;
+    background: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+button {
+    cursor: pointer;
+
+}
+
+.not-clicked {
+    list-style: none;
+    height: 64px;
+    width: 252px;
+    justify-content: center;
+
+    border-radius: 18px;
+    text-align: center;
+    margin: 1px;
+    padding: 6px;
+    background-color: #FFFFFF;
+}
+
+.not-clicked:hover {
+    background: #e9e5e5;
+}
+
+.clicked {
+    list-style: none;
+    height: 64px;
+    width: 252px;
+    justify-content: center;
+
+    border-radius: 18px;
+    text-align: center;
+    margin: 1px;
+    background-color: #DD0000;
+}
+
+.clicked:hover {
+    background: #960707;
+}
+
+.not-clicked .menu-button {
+    text-decoration: none;
+    color: #161616;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.clicked .menu-button {
+    text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* -------------------
+pura body r jonno
+------------------------ */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* blog container  */
+.blog-container {
+    border: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 0px;
+    margin: 0px;
+}
+
+.blog {
+    border: 1px solid rgba(133, 133, 133, 0.428);
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px 0 gray;
+
+
+}
+
+.blog:hover {
+    background: rgb(212, 211, 211);
+}
+
+.blog-img {
+    width: 312px;
+    height: 175px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.transfer-button {
+    width: 100px;
+    height: 22px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #161616;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.blog-title {
+    width: 272px;
+    height: 54px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #161616;
+    margin: 20px 15px;
+}
+
+.blog-info {
+    width: 143px;
+    height: 26px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.clock {
+    width: 60px;
+    height: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.comment {
+    width: 60px;
+    height: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* footer  */
+footer {
+    width: 100%;
+    height: 300px;
+    background: #161616;
+    margin-top: 100px;
+    justify-content: center;
+
+}
+
+.footer-content {
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+}
+
+.last {
+    text-decoration: none;
+
+}
+
+li {
+    list-style-type: none;
+
+    display: inline-flex;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.goal h1 {
+    margin-top: 40px;
+}
+
+
+
+/* ......................................media quaries....................................... */
+
+/* for mobile  */
+@media only screen and (max-width:768px) {
+    .container {
+        display: block;
+
+    }
+
+    .col-1 {
+        width: 100%;
+        align-items: center;
+
+    }
+
+    .col-1 p {
+        word-wrap: normal;
+    }
+
+    .col-2 img {
+        width: 100%;
+        height: 330px;
+        margin-top: 0px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    body {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+
+        width: 100%;
+
+
+    }
+
+    footer {
+        display: block;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+}
+
+/* for tablats 
+*/
+@media only screen and (min-width:689px) and (max-width:992px) {}
+
+/* index2 er part  */
+.blog-container-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+}
+
+.blog-img-2 {
+    display: flex;
+    margin-right: 20px;
+}
+
+.blog-container-2 .blog {
+    width: 250px;
+    height: 200px;
+    margin-bottom: 0px;
+    margin: 20px;
+    padding: 10px;
+
+}
+
+.date {
+    margin-top: 0px;
+}
+
+.blog-container-2 .blog-title {
+    margin-bottom: 0px;
+}
+
+.part-2-1 {
+    height: 500px;
+}
